@@ -45,7 +45,7 @@ body{
     padding-right:30px;
     border-radius:100%;
     font-size:40px;
-    position:fixed;
+    position:absolute;
     bottom:0px;
     right:10px;
 }
@@ -115,4 +115,3 @@ body{
 #delete:focus{
     outline:none;
 }
-@media all and (minwidth())
