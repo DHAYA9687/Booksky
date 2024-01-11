@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOK WORLD</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="nav">
+            <h1>Booksky</h1>
+        </div>
+    <div class="container">
+        <div class="body-container">
+            <h2>Rich Dad Poor Dad </h2>
+            <h4>Robert</h4>
+            <p>"Rich Dad Poor Dad" is a personal finance and self-help book written by Robert T. Kiyosaki. The book contrasts the financial philosophies and approaches of two father figures in Kiyosaki's life: his biological father (referred to as the "Poor Dad") and the father of his childhood best friend (referred to as the "Rich Dad").</p>
+            <button id="delete" onclick="dpop(event)">Delete</button>
+        </div>
+        <div class="body-container">
+                <h2>The Power Of Subconscious Mind</h2>
+                <h4>Joseph Murphy</h4>
+                <p> It is one of the most brilliant and beloved spiritual self-help works of all time which can help you heal yourself, banish your fears, sleep better, enjoy better relationships and just feel happier. The techniques are simple and results come quickly. You can improve your relationships, your finances, your physical well-being.</p>
+                <button id="delete" onclick="dpop(event)">Delete</button>
+        </div>
+            
+        </div>
+    </div>
+    <div class="pop-overlay"></div>
+    <div class="pop-box">
+        <h2>ADD BOOK</h2>
+        <form>
+            <input type="text" name="title" placeholder="Title" id="pop-box-title">
+            <input type="text" name="author" placeholder="Author" id="pop-box-author">
+            <textarea name="description" rows="2" id="description" placeholder="Description"></textarea>
+            <button type="submit" name="submit" id="add">Added</button>
+            <button name="cancel" id="cancel">Cancel</button>
+        </form>
+    </div>
+    <button id="adding" onclick="pop()">+</button>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
