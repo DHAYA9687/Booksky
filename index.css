@@ -45,9 +45,9 @@ body{
     padding-right:30px;
     border-radius:100%;
     font-size:40px;
-    position:absolute;
-    bottom:20px;
-    right:20px;
+    position:fixed;
+    bottom:0px;
+    right:10px;
 }
 
 .pop-overlay {
@@ -115,3 +115,4 @@ body{
 #delete:focus{
     outline:none;
 }
+@media all and (minwidth())
