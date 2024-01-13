@@ -45,9 +45,10 @@ body{
     padding-right:30px;
     border-radius:100%;
     font-size:40px;
-    position:absolute;
+    position:fixed;
     bottom:0px;
     right:10px;
+    opacity:0.8;
 }
 
 .pop-overlay {
@@ -114,4 +115,15 @@ body{
 }
 #delete:focus{
     outline:none;
+}
+@media screen and (max-width:400px){
+    .container{
+        display:grid;
+        grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    }
+    #adding{
+        position:fixed;
+        bottom:0px;
+        right:0px;
+    }
 }
