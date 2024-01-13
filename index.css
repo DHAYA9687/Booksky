@@ -24,7 +24,7 @@ body{
     border-radius:10px;
 };
 .body-container h2{
-    color:#FD6569
+    color:#FD6569;
 }
 .body-container button{
     background-color:#FD6569;
@@ -124,6 +124,9 @@ body{
     #adding{
         position:fixed;
         bottom:0px;
-        right:0px;
+        right:10px;
+    }
+    .body-container h2{
+        color:#FD6569;
     }
 }
